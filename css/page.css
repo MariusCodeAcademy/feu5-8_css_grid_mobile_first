@@ -1,17 +1,21 @@
 header {
   background-color: burlywood;
+  grid-area: header;
 }
 
 main {
   background-color: coral;
+  grid-area: main;
 }
 
 aside {
   background-color: aquamarine;
+  grid-area: aside;
 }
 
 footer {
   background-color: tomato;
+  grid-area: footer;
 }
 
 .element {
@@ -24,12 +28,29 @@ footer {
 
 .grid-container {
   display: grid;
+  grid-template-areas:
+    'header header header header'
+    'main main main aside'
+    'footer footer footer footer';
 }
 
 /* media */
 
 @media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-areas:
+      'header header header header'
+      'main main aside aside'
+      'footer footer footer footer';
+  }
 }
 
 @media screen and (max-width: 500px) {
+  .grid-container {
+    grid-template-areas:
+      'header'
+      'main'
+      'aside'
+      'footer';
+  }
 }
