@@ -3,6 +3,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #3a4348;
+  background-color: #e6e6e6;
 }
 
 section {
@@ -64,4 +65,35 @@ section {
   left: -1rem;
   top: -0.8rem;
   border-radius: 50%;
+}
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+/* Plans */
+
+.plan {
+  background-color: white;
+  text-align: center;
+}
+
+.plan__title {
+  font-size: 1.4rem;
+  padding: 0.7em 1.7em;
+  background-color: #24bdc9;
+  color: white;
+  font-weight: normal;
+  display: inline-block;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.plan__price {
+  font-size: 4rem;
+}
+.plan__price sup {
+  font-size: 2rem;
+  vertical-align: text-top;
 }
