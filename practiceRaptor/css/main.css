@@ -1,0 +1,21 @@
+/* common */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.title--section {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: blueviolet;
+}
+
+.subtitle--section {
+  font-size: 3rem;
+  font-weight: normal;
+}
