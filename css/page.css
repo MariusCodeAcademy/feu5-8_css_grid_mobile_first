@@ -1,21 +1,33 @@
 header {
   background-color: burlywood;
+  grid-column: span 4;
 }
 
 main {
   background-color: coral;
+  grid-column: span 3;
 }
 
 aside {
   background-color: aquamarine;
+  /* grid-row: span 2; */
+  /* grid-column-start: 4; */
 }
 
 footer {
   background-color: tomato;
+  grid-column: span 4;
 }
 
 .element {
   min-height: 150px;
   font-size: 5rem;
   padding: 1rem;
+}
+
+/* Grid */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
