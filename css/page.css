@@ -1,0 +1,21 @@
+header {
+  background-color: burlywood;
+}
+
+main {
+  background-color: coral;
+}
+
+aside {
+  background-color: aquamarine;
+}
+
+footer {
+  background-color: tomato;
+}
+
+.element {
+  min-height: 150px;
+  font-size: 5rem;
+  padding: 1rem;
+}
