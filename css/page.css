@@ -31,3 +31,21 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+
+/* media */
+
+@media screen and (max-width: 768px) {
+  main,
+  aside {
+    /* uzimti po 2 tiklelio stulpelius  */
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  main,
+  aside {
+    /* uzimti po 2 tiklelio stulpelius  */
+    grid-column: span 4;
+  }
+}
