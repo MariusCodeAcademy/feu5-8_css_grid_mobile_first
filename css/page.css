@@ -1,22 +1,17 @@
 header {
   background-color: burlywood;
-  grid-column: span 4;
 }
 
 main {
   background-color: coral;
-  grid-column: span 3;
 }
 
 aside {
   background-color: aquamarine;
-  /* grid-row: span 2; */
-  /* grid-column-start: 4; */
 }
 
 footer {
   background-color: tomato;
-  grid-column: span 4;
 }
 
 .element {
@@ -29,23 +24,12 @@ footer {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
 }
 
 /* media */
 
 @media screen and (max-width: 768px) {
-  main,
-  aside {
-    /* uzimti po 2 tiklelio stulpelius  */
-    grid-column: span 2;
-  }
 }
 
 @media screen and (max-width: 500px) {
-  main,
-  aside {
-    /* uzimti po 2 tiklelio stulpelius  */
-    grid-column: span 4;
-  }
 }
