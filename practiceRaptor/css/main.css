@@ -19,3 +19,27 @@ section {
   font-size: 3rem;
   font-weight: normal;
 }
+
+.text {
+  line-height: 1.8;
+  color: #81919a;
+}
+/* Services */
+
+.section-services .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.title--services {
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
+.section-services .icon {
+  font-size: 5rem;
+  color: green;
+  margin-bottom: 0.5em;
+}
