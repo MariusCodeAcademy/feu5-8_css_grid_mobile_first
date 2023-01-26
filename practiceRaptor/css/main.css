@@ -27,6 +27,19 @@ section {
   line-height: 1.8;
   color: #81919a;
 }
+
+/* Header */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.main-nav {
+  background-color: #fff;
+  padding: 2rem 2rem;
+}
+
 /* Services */
 
 .section-services .grid {
@@ -96,4 +109,9 @@ section {
 .plan__price sup {
   font-size: 2rem;
   vertical-align: text-top;
+}
+.plan__subtitle {
+  color: gray;
+  font-size: 2rem;
+  min-height: calc(2em + 10px);
 }
